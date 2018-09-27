@@ -145,6 +145,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = 'blog_api'
+EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
