@@ -143,8 +143,8 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'cobbfamily623@gmail.com'
-EMAIL_HOST_PASSWORD = 'Gomavs#123'
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = 'blog_api'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
