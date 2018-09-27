@@ -4,6 +4,8 @@ from django.views.generic import ListView
 from .models import Post
 from django.core.mail import send_mail
 from .forms import EmailPostForm
+from django.http import HttpResponse
+
 
 def post_list(request):
     object_list = Post.published.all()
